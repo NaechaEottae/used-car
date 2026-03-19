@@ -23,14 +23,16 @@ export default async function searchBlogReview() {
       },
     });
     // console.log(response.data.items);
-    return response.data.items.filter((post) => {
-      if (
-        post.bloggerlink === "blog.naver.com/chea789" &&
-        post.title.search("고객 리뷰") > -1
-      ) {
-        return post;
-      }
-    });
+    return response.data.items.filter(
+      (post: { bloggerlink: string; title: string }) => {
+        if (
+          post.bloggerlink === "blog.naver.com/chea789" &&
+          post.title.search("고객 리뷰") > -1
+        ) {
+          return post;
+        }
+      },
+    );
   } catch (error) {
     console.log(error);
   }
