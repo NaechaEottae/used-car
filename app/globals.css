@@ -15,6 +15,7 @@
 }
 
 :root {
+  color-scheme: light only;
   --background: #ffffff;
   --foreground: #171717;
   --maincolor: rgb(249 66 57);
