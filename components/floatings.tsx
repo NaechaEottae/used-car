@@ -6,7 +6,7 @@ import call from "../public/call_icon.png";
 export default function Floating() {
   return (
     <div className="floating-wrap">
-      <a href="https://open.kakao.com/o/sBNFf1ni">
+      <a href="https://open.kakao.com/o/sBNFf1ni" target="_blank">
         <Image className="icon" src={kakao} alt="kakao talk" />
       </a>
       <a href="tel:+821044715896">
