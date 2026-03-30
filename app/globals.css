@@ -445,7 +445,7 @@ main {
   background-color: rgb(249 66 57);
   line-height: 32px;
 }
-.information-wrap h1 {
+.information-wrap h3 {
   font-size: 36px;
   margin: 32px 0;
 }
@@ -474,19 +474,20 @@ main {
 @media (max-width: 991px) {
   /* 모바일 */
   .information-wrap {
-    padding: 52px 12px 60px;
+    padding: 0px 12px;
+    padding-top: 64px;
   }
   .information-wrap .mockup {
     display: none;
   }
-  .information-wrap h1 {
-    font-size: 26px;
+  .information-wrap h3 {
+    font-size: 24px;
     margin: 12px;
   }
   .information-wrap .content {
     font-size: 14px;
     line-height: 20px;
-    padding: 14px;
+    padding: 20px 14px;
   }
   .information-wrap .content .small {
     font-size: 12px;
