@@ -45,7 +45,7 @@ a {
 
 body {
   font-family: "YeogiOttaeJalnan";
-  background: var(--background);
+  background: white;
   color: var(--foreground);
 }
 
