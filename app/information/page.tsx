@@ -6,7 +6,7 @@ export default function Information() {
   return (
     <>
       <div className="information-wrap">
-        <h1>회사소개</h1>
+        <h3>회사소개</h3>
         <div className="content">
           <div>
             <span className="strong">내차어때</span>는 자동차{" "}
