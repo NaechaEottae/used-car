@@ -610,7 +610,7 @@ main {
   /* 모바일 */
   .export-wrap {
     padding: 0px 12px;
-    margin-top: 52px;
+    margin-top: 64px;
   }
   .export-wrap h3 {
     font-size: 24px;
@@ -619,10 +619,10 @@ main {
     padding: 14px;
     margin-top: 12px;
   }
-  .export-wrap h5 {
+  .export-wrap .question-card h5 {
     font-size: 18px;
   }
-  .export-wrap p {
+  .export-wrap .question-card p {
     font-size: 12px;
   }
 }
@@ -635,6 +635,11 @@ footer {
   padding: 48px;
   font-size: 10px;
   background-color: rgb(255, 255, 255);
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 16px;
+  }
 }
 footer > div > p {
   float: left;
