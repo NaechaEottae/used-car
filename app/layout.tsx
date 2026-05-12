@@ -21,6 +21,15 @@ import logo from "../public/logo.png";
 export const metadata: Metadata = {
   title: "내차어때",
   description: "내차어때에서 매매, 수출, 폐차까지 한번에 해결하세요!",
+  openGraph: {
+    siteName: "내차어때",
+    images: {
+      url: "/logo.png",
+    },
+    other: {
+      "naver-site-verification": "9452a2aa9833c54cbb5d0ebd512da001524855de",
+    },
+  },
 };
 
 export default function RootLayout({
