@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     images: {
       url: "/logo.png",
     },
-    other: {
-      "naver-site-verification": "9452a2aa9833c54cbb5d0ebd512da001524855de",
-    },
+  },
+  other: {
+    "naver-site-verification": "9452a2aa9833c54cbb5d0ebd512da001524855de",
   },
 };
 
