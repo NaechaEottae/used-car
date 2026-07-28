@@ -5,16 +5,10 @@ const CLINET_PW = process.env.NEXT_PUBLIC_API_KEY_NAVER_CLIENT_PW;
 
 export default async function searchBlogReview() {
   try {
-    // const response = await axios.get("/v1/search/image.json", {
-    //   params: {
-    //     query: "평택 내차어때", // 검색 키워드
-    //     sort: "sim", // 검색 결과 정렬 방법(sim: 정확도 순)
-    //     display: 100, // 한 번에 표시할 검색 결과
-    //   },
     const response = await axios.get("/v1/search/blog.json", {
       params: {
-        query: "평택내차어때", // 검색 키워드
-        sort: "sim", // 검색 결과 정렬 방법(sim: 정확도 순)
+        query: "내차어때", // 검색 키워드
+        sort: "sim", // 검색 결과 정렬 방법(sim: 정확도 순,date: 날짜)
         display: 100, // 한 번에 표시할 검색 결과
       },
       headers: {
@@ -22,12 +16,12 @@ export default async function searchBlogReview() {
         "X-Naver-Client-Secret": CLINET_PW,
       },
     });
-    // console.log(response.data.items);
+    console.log(response.data.items);
     return response.data.items.filter(
       (post: { bloggerlink: string; title: string }) => {
         if (
-          post.bloggerlink === "blog.naver.com/chea789" &&
-          post.title.search("고객 리뷰") > -1
+          post.bloggerlink === "blog.naver.com/mycarexport" &&
+          post.title.search("내차어때") > -1
         ) {
           return post;
         }
