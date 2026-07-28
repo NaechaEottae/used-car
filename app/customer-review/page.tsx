@@ -39,7 +39,7 @@ export default function CustomerReview() {
                 깔끔하게 진행해 주셔서 감사합니다.
               </p>
               <span className="small-font">
-                2026.07.20{"  "}|{"  "}dbajrkarkr
+                2026.07.22{"  "}|{"  "}dbajrkarkr
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function CustomerReview() {
                 차량 구매 하실때 추천 드려요
               </p>
               <span className="small-font">
-                2026.06.19{"  "}|{"  "}초코초코쵹a
+                2026.07.06{"  "}|{"  "}초코초코쵹a
               </span>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function CustomerReview() {
                 다음에도 차량을 사고팔 일이 생기면 다시 이용하고 싶은 곳이에요.
               </p>
               <span className="small-font">
-                2026.04.30{"  "}|{"  "}체리쥬빌레레
+                2026.07.13{"  "}|{"  "}체리쥬빌레레
               </span>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function CustomerReview() {
                 주변에 추천도 꼭 드릴게요
               </p>
               <span className="small-font">
-                2026.03.20{"  "}|{"  "}sso****
+                2026.05.26{"  "}|{"  "}sso****
               </span>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function CustomerReview() {
                 좋은 추억으로 소중했던 차를 떠나보냈습니다
               </p>
               <span className="small-font">
-                2026.02.12{"  "}|{"  "}won****
+                2026.05.03{"  "}|{"  "}won****
               </span>
             </div>
           </div>
