@@ -2,7 +2,7 @@ export default function Sales() {
   return (
     <>
       <div className="export-wrap">
-        <h3>중고차 매매</h3>
+        <h1>중고차 매매</h1>
         <div className="question-card">
           <h5>
             <span>Q.</span>

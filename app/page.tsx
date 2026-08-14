@@ -12,12 +12,12 @@ export default function Home() {
       <div className="sec2">
         <div className="msg-box">
           <h3>
-            내차 가격
+            내 차 가격
             <br />
             <span style={{ color: "rgb(249 66 57)" }}>더~ 높게</span>
           </h3>
           <p>
-            차량 상담을 통해
+            상담을 통해
             <br />
             <span style={{ color: "rgb(249 66 57)" }}>가장 높은 가격을 </span>
             받을 수 있도록
@@ -46,7 +46,9 @@ export default function Home() {
           </div>
           <div className="chart-box">
             <div>
-              <span>내차 해외 수출 예상 시세</span>
+              <span>
+                내차 <strong>중고차 수출</strong> 예상 시세
+              </span>
               <br />
               <span className="price">1000</span>
               <span>만원</span>
@@ -91,16 +93,16 @@ export default function Home() {
               alt="handshack image"
             />
             <span className="small">
-              거리가 멀어도,
+              거리가 멀어도 OK!
               <br />
-              출장상담 가능합니다.
+              무료 견적, 방문 상담
             </span>
           </div>
         </div>
       </div>
       <div className="sec4">
         <p>
-          자동차 매매, 수출, 폐차까지
+          중고차 매매, 수출, 폐차까지
           <br /> 모두 한곳에서 상담 가능합니다.
           <br /> <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
           에서 편하게 상담해보세요!

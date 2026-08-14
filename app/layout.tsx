@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
 
 import Script from "next/script";
@@ -19,8 +19,9 @@ import logo from "../public/logo.png";
 // });
 
 export const metadata: Metadata = {
-  title: "내차어때",
-  description: "내차어때에서 매매, 수출, 폐차까지 한번에 해결하세요!",
+  title: "내차어때 [중고차 수출 전문 기업]",
+  description:
+    "내차어때에서 중고차 매매, 중고차 수출, 폐차까지 한번에 해결하세요!",
   openGraph: {
     siteName: "내차어때",
     images: {
@@ -29,8 +30,25 @@ export const metadata: Metadata = {
   },
   other: {
     "naver-site-verification": "9452a2aa9833c54cbb5d0ebd512da001524855de",
+    "google-site-verification": "b37BTrJB_RuH9ElDsUaG61sKOOJz4WNejwbE8rIOBwk",
   },
 };
+
+// TODO : 메타 OG 타이틀, 설명 동적 생성 작업
+// https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+// type Props = {
+//   params: Promise<{ id: string }>;
+//   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+// };
+// export async function GenerateMetadata(
+//   { params, searchParams }: Props,
+//   parent: ResolvingMetadata,
+// ): Promise<Metadata> {
+//   console.log("메타");
+//   return {
+//     title: "Next.js",
+//   };
+// }
 
 export default function RootLayout({
   children,

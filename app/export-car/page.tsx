@@ -3,7 +3,7 @@ export default function ExportCar() {
     <>
       <div className="export-bg"></div>
       <div className="export-wrap">
-        <h3>중고차 수출</h3>
+        <h1>중고차 수출</h1>
         <div className="question-card">
           <h5>
             <span>Q.</span>

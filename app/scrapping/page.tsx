@@ -2,7 +2,7 @@ export default function Scrapping() {
   return (
     <>
       <div className="export-wrap">
-        <h3>폐차</h3>
+        <h1>폐차</h1>
         <div className="question-card">
           <h5>
             <span>Q.</span>
