@@ -376,7 +376,7 @@ main {
 }
 .sec4 {
   padding: 0 16% 0 16%;
-  height: 80vh;
+  height: auto;
   background-color: #72b866;
   color: white;
   display: flex;
