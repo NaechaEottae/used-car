@@ -409,6 +409,9 @@ main {
 /* 반응형 */
 @media (max-width: 991px) {
   /* 모바일 */
+  body {
+    width: 100%;
+  }
   .sec1 {
     height: 240px;
   }
@@ -464,6 +467,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    height: 890px;
   }
   .sec4 p {
     font-size: 18px;

@@ -88,6 +88,7 @@ export default function Navigation() {
                 fontFamily: "GiantsInline",
                 fontSize: "20px",
                 color: "#38832f",
+                paddingTop: "12px",
               }}
             >
               내차어때
