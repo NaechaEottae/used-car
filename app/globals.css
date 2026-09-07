@@ -217,18 +217,27 @@ main {
 .sec2 .msg-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   margin: 24px 0;
+  gap: 32px;
 }
 .sec2 .msg-box h3 {
   font-weight: 700;
   color: black;
   font-size: 32px;
+  line-height: 1.45;
+  margin: 0;
 }
 .sec2 .msg-box p {
   font-size: 18px;
-  /* margin-top: 70px; */
+  line-height: 1.7;
+  margin: 0;
 }
+
+.sec2 .msg-box a {
+  margin-top: 8px;
+}
+
 .sec2 .car-wrap {
   display: flex;
   flex-direction: column;
@@ -292,13 +301,21 @@ main {
 
 .sec2 button {
   width: 250px;
-  height: 86px;
-  font-size: 24px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 700;
   padding: 10px;
+  border: 2px solid #38842f;
+  border-radius: 10px;
+  background-color: #38842f;
+  color: white;
+  transition: all 0.2s ease;
 }
+
 .sec2 button:hover {
-  color: #38832f;
-  border: none;
+  background-color: #1f5c2a;
+  border-color: #1f5c2a;
+  color: white;
   cursor: pointer;
 }
 .sec3 {
@@ -336,7 +353,7 @@ main {
 }
 .sec3 .card:nth-child(1) {
   background-color: #72b866;
-  color: #2c2c2c;
+  color: #ffffff;
 }
 .sec3 .card:nth-child(2) {
   background-color: #38832f;
