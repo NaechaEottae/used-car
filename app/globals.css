@@ -331,14 +331,15 @@ main {
   font-size: 20px;
 }
 .sec3 .card:nth-child(1) {
-  background-color: #f0fdf4;
+  background-color: #72b866;
   color: #2c2c2c;
 }
 .sec3 .card:nth-child(2) {
   background-color: #38832f;
+  color: #ffffff;
 }
 .sec3 .card:nth-child(3) {
-  background-color: #2f4f4f;
+  background-color: #72b866;
   color: #ffffff;
 }
 .sec3 .card .carCheck {
@@ -359,7 +360,8 @@ main {
 .sec4 {
   padding: 0 16% 0 16%;
   height: 80vh;
-  background-color: #f0fdf4;
+  background-color: #72b866;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -13,13 +13,17 @@ export default function Home() {
         <div className="msg-box">
           <h3>
             내 차, <br />
-            어디에 팔아야 가장 이득일까?
+            어디에 팔아야
+            <br />
+            가장 이득일까?
             <br />
           </h3>
           <p>
             중고차 매매,수출,폐차까지
             <br /> 한 곳에서 비교하고
-            <br />내 차에 가장 알맞는 처분 방법을 찾아드립니다.
+            <br />
+            <br />내 차에 가장 알맞는
+            <br /> 처분 방법을 찾아드립니다.
           </p>
           <a href="tel:+821044715896">
             <button>내 차 무료 견적 받기</button>
