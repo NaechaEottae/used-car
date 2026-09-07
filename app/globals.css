@@ -318,13 +318,13 @@ main {
   font-size: 20px;
 }
 .sec3 .card:nth-child(1) {
-  background-color: #52a04a;
+  background-color: #71cc67;
 }
 .sec3 .card:nth-child(2) {
   background-color: #38832f;
 }
 .sec3 .card:nth-child(3) {
-  background-color: #457c3e;
+  background-color: #5da353;
 }
 .sec3 .card .carCheck {
   width: 100px;
