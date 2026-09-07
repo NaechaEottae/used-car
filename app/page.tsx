@@ -116,9 +116,9 @@ export default function Home() {
           <br />✅ 오래된 연식
           <br />✅ 외관 손상 차량
           <br />✅ 침수/고장 차량
-          <br />✅ 운행 불가 차량
-          <br />✅ 수출 가능 차량
-          <br />✅ 폐차 대상 차량
+          <br />✅ 노후 경유 차량
+          <br />✅ 압류 차량
+          <br />✅ 방전된 차량
           <br />
           <br /> 폐차하기 전에 <br />
           <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
