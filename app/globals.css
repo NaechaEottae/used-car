@@ -331,14 +331,14 @@ main {
   font-size: 20px;
 }
 .sec3 .card:nth-child(1) {
-  background-color: #f5f4f0;
-  color: #2c2c2c;
+  background-color: #e8efe9;
+  color: #2b332c;
 }
 .sec3 .card:nth-child(2) {
   background-color: #38832f;
 }
 .sec3 .card:nth-child(3) {
-  background-color: #f9f8f3;
+  background-color: #f0f4f1;
   color: #2c2c2c;
 }
 .sec3 .card .carCheck {
