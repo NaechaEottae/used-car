@@ -12,11 +12,13 @@ export default function Home() {
       <div className="sec2">
         <div className="msg-box">
           <h3>
-            내 차, 어디에 팔아야 가장 이득일까?
+            내 차, <br />
+            어디에 팔아야 가장 이득일까?
             <br />
           </h3>
           <p>
-            중고차 매매,수출,폐차까지 한 곳에서 비교하고
+            중고차 매매,수출,폐차까지
+            <br /> 한 곳에서 비교하고
             <br />내 차에 가장 알맞는 처분 방법을 찾아드립니다.
           </p>
           <a href="tel:+821044715896">
@@ -65,12 +67,13 @@ export default function Home() {
           <div className="card">
             직접 운영
             <br />
-            아직 키로수가 낮은 차량
             <Image className="carCheck" src={carCheck} alt="car check image" />
             <span className="small">
               매매상사와 수출 업체를
               <br />
-              직접 운영하여 거품 없는 견적 제공
+              직접 운영하여
+              <br />
+              거품 없는 견적 제공
             </span>
           </div>
           <div className="card">
