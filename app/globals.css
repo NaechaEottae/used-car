@@ -90,7 +90,7 @@ header {
   }
 }
 .logo {
-  width: 164px;
+  width: 125px;
   height: 94px;
 }
 .nav > ul {
@@ -295,6 +295,7 @@ main {
 .sec2 button:hover {
   color: #38832f;
   border: none;
+  cursor: pointer;
 }
 .sec3 {
   margin-top: 96px;
@@ -381,6 +382,7 @@ main {
 .sec4 button:hover {
   color: #38832f;
   border: 6px solid #38832f;
+  cursor: pointer;
 }
 
 /* 반응형 */
