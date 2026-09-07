@@ -39,7 +39,16 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <Image className="logo" src={logo} alt="logo" />
+              <span
+                style={{
+                  fontFamily: "GiantsInline",
+                  fontSize: "24px",
+                  color: "#38832f",
+                }}
+              >
+                내차어때
+              </span>
+              {/* <Image className="logo" src={logo} alt="logo" /> */}
             </Link>
             <ul className="sub">
               <Link href="/information">
