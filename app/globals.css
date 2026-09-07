@@ -91,6 +91,7 @@ header {
 }
 .logo {
   width: 164px;
+  height: 94px;
 }
 .nav > ul {
   display: flex;
