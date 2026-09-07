@@ -339,7 +339,7 @@ main {
 }
 .sec3 .card:nth-child(3) {
   background-color: #2f4f4f;
-  color: #fffff;
+  color: #ffffff;
 }
 .sec3 .card .carCheck {
   width: 100px;
@@ -359,7 +359,7 @@ main {
 .sec4 {
   padding: 0 16% 0 16%;
   height: 80vh;
-  background-color: #8ee684;
+  background-color: #f0fdf4;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
