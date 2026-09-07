@@ -553,11 +553,11 @@ main {
   width: 860px;
   border-radius: 30px;
   gap: 24px;
-  background-color: rgb(255, 129, 120);
+  background-color: #72b866;
   padding: 24px;
 }
 .card:nth-child(odd) {
-  background-color: rgb(255, 205, 193);
+  background-color: #8edd80;
 }
 .card-image {
   width: 240px;
