@@ -89,6 +89,7 @@ export default function Navigation() {
                 fontSize: "20px",
                 color: "#38832f",
                 paddingTop: "12px",
+                paddingRight: "8px",
               }}
             >
               내차어때
