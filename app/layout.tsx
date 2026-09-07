@@ -19,9 +19,9 @@ import logo from "../public/logo.png";
 // });
 
 export const metadata: Metadata = {
-  title: "내차어때 [중고차 수출 전문 기업]",
+  title: "평택 중고차 매입·수출·폐차 | 내차어때",
   description:
-    "내차어때에서 중고차 매매, 중고차 수출, 폐차까지 한번에 해결하세요!",
+    "중고차 매입부터 수출, 폐차까지 한 곳에서 상담하세요. 주행거리 많은 차량, 사고차, 오래된 차량도 무료 견적 및 방문 상담을 제공합니다. 평택, 안성, 천안 등 전국 방문 가능.",
   openGraph: {
     siteName: "내차어때",
     images: {
@@ -36,6 +36,7 @@ export const metadata: Metadata = {
 
 // TODO : 메타 OG 타이틀, 설명 동적 생성 작업
 // https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+// https://nextjs-ko.org/docs/app/api-reference/functions/generate-metadata
 // type Props = {
 //   params: Promise<{ id: string }>;
 //   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
@@ -79,7 +80,6 @@ export default function RootLayout({
               전화번호 : 010-4471-5896
               <br />
               주소 : 경기 평택시 유천2길 41-20 A동
-              {/* 주소 : 경기 평택시 비전1로 44, 2층 */}
               <br />
               <br />
               Copyright 2026. 내차어때. All right reserved.

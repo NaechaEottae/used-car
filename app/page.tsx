@@ -12,18 +12,16 @@ export default function Home() {
       <div className="sec2">
         <div className="msg-box">
           <h3>
-            내 차 가격
+            내 차, 어디에 팔아야 가장 이득일까?
             <br />
-            <span style={{ color: "rgb(249 66 57)" }}>더~ 높게</span>
           </h3>
           <p>
-            상담을 통해
-            <br />
-            <span style={{ color: "rgb(249 66 57)" }}>가장 높은 가격을 </span>
-            받을 수 있도록
-            <br />
-            제시해드리겠습니다
+            중고차 매매,수출,폐차까지 한 곳에서 비교하고
+            <br />내 차에 가장 알맞는 처분 방법을 찾아드립니다.
           </p>
+          <a href="tel:+821044715896">
+            <button>내 차 무료 견적 받기</button>
+          </a>
         </div>
         <div className="car-wrap">
           <div className="car-box">
@@ -31,7 +29,7 @@ export default function Home() {
               <div className="car-num">89다1234</div>
               <div className="info-line">
                 <span className="title">모델명</span>
-                <span className="content">올 뉴쏘렌토</span>
+                <span className="content">스포티지</span>
               </div>
               <div className="info-line">
                 <span className="title">연식</span>
@@ -59,54 +57,64 @@ export default function Home() {
       </div>
       <div className="sec3">
         <h3>
-          <span style={{ fontFamily: "GiantsInline" }}>내차어때</span> 의
-          신속하고 정확한 서비스를 약속합니다
+          내차 처분, 한곳에서 비교하고 결정하세요.
+          {/* <span style={{ fontFamily: "GiantsInline" }}>내차어때</span> 의
+          신속하고 정확한 서비스를 약속합니다 */}
         </h3>
         <div className="card-wrap">
           <div className="card">
-            차량 대금 즉시 입금!
+            직접 운영
             <br />
-            서류처리 24시간 이내!
+            아직 키로수가 낮은 차량
             <Image className="carCheck" src={carCheck} alt="car check image" />
             <span className="small">
-              번거로운 매매 절차 NO!
+              매매상사와 수출 업체를
               <br />
-              하루면 모든 절차 완료!
+              직접 운영하여 거품 없는 견적 제공
             </span>
           </div>
           <div className="card">
-            오래된 내차
-            <br />제 값 받고 파세요!
+            맞춤 솔루션
             <Image className="carIcon" src={carIcon} alt="car image" />
             <span className="small">
-              주행거리가 많아도, <br />
-              사고가 있어도 OK!
+              차량 상태에 맞춰
+              <br />
+              가장 유리한 처분 방법 제안
+              <br />
+              매매 · 수출 · 폐차
+              <br />
             </span>
           </div>
           <div className="card">
-            대한민국 어디라도
-            <br />
-            직접 찾아갑니다!
+            원스톱 진행
             <Image
               className="handshack"
               src={handshack}
               alt="handshack image"
             />
             <span className="small">
-              거리가 멀어도 OK!
+              복잡한 말소 및 <br />
+              서류 절차까지 깔끔하게 해결
               <br />
-              무료 견적, 방문 상담
             </span>
           </div>
         </div>
       </div>
       <div className="sec4">
         <p>
-          중고차 매매, 수출, 폐차까지
-          <br /> 모두 한곳에서 상담 가능합니다.
-          <br /> <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
+          이런 차량도 상담 가능합니다
+          <br />✅ 주행거리 20만km 이상
+          <br />✅ 사고 이력 차량
+          <br />✅ 오래된 연식
+          <br />✅ 외관 손상 차량
+          <br />✅ 침수/고장 차량
+          <br />✅ 운행 불가 차량
+          <br />✅ 수출 가능 차량
+          <br />✅ 폐차 대상 차량
+          <br /> 폐차하기 전에{" "}
+          <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
           에서 편하게 상담해보세요!
-          <br /> 친절한 상담을 약속 드립니다.
+          <br />
         </p>
         <a href="tel:+821044715896">
           <button>상담하기</button>

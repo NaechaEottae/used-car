@@ -19,7 +19,7 @@ export default function ChartCanvas() {
               backgroundColor: [
                 "rgb(108, 117, 125)",
                 "rgb(108, 117, 125)",
-                "rgb(249 66 57)",
+                "#38832f",
               ], //배경색상
             },
           ],

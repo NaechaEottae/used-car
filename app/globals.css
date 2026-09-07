@@ -18,7 +18,7 @@
   color-scheme: light only;
   --background: #ffffff;
   --foreground: #171717;
-  --maincolor: rgb(249 66 57);
+  --maincolor: #38832f;
   --textcolor: rgb(18, 32, 47);
   --coolgray: rgb(230, 233, 238);
   --slategray: rgb(108, 117, 125);
@@ -262,7 +262,7 @@ main {
 .sec2 .car-box .car-num {
   font-size: 22px;
   width: fit-content;
-  border: 4px solid rgb(249 66 57);
+  border: 4px solid #38832f;
   border-radius: 8px;
   color: black;
   padding: 2px 4px;
@@ -281,7 +281,7 @@ main {
   height: 280px;
 }
 .sec2 .chart-box .price {
-  color: rgb(249 66 57);
+  color: #38832f;
   font-size: 36px;
 }
 .sec3 {
@@ -367,8 +367,8 @@ main {
   border-radius: 100%;
 }
 .sec4 button:hover {
-  color: rgb(249 66 57);
-  border: 6px solid rgb(249 66 57);
+  color: #38832f;
+  border: 6px solid #38832f;
 }
 
 /* 반응형 */
@@ -431,7 +431,7 @@ main {
     padding: 10px;
   }
   .sec4 button:hover {
-    color: rgb(249 66 57);
+    color: #38832f;
     border: none;
   }
 }
@@ -442,7 +442,7 @@ main {
   padding: 148px 48px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(249 66 57);
+  background-color: #38832f;
   line-height: 32px;
 }
 .information-wrap h3 {
@@ -466,7 +466,7 @@ main {
   margin: 20px 0;
 }
 .information-wrap .content .strong {
-  color: rgb(249 66 57);
+  color: #38832f;
 }
 .information-wrap .mockup {
   width: 420px;
@@ -545,7 +545,7 @@ main {
   margin-bottom: 12px;
 }
 .small-font {
-  color: rgb(249 66 57);
+  color: #38832f;
   font-size: 14px;
 }
 @media (max-width: 991px) {
@@ -600,7 +600,7 @@ main {
   font-size: 24px;
 }
 .export-wrap .question-card > p > span {
-  color: rgb(249 66 57);
+  color: #38832f;
   text-decoration: underline;
 }
 .export-wrap h5 {
