@@ -97,6 +97,7 @@ header {
   display: flex;
   flex-direction: row;
   text-align: center;
+  height: 52px;
 }
 .nav > ul > li {
   position: relative;
