@@ -284,6 +284,17 @@ main {
   color: #38832f;
   font-size: 36px;
 }
+
+.sec2 button {
+  width: 86px;
+  height: 86px;
+  font-size: 24px;
+  padding: 10px;
+}
+.sec2 button:hover {
+  color: #38832f;
+  border: none;
+}
 .sec3 {
   margin-top: 96px;
   height: 80vh;
@@ -363,7 +374,7 @@ main {
   cursor: pointer;
   margin-top: 24px;
   background-color: white;
-  color: rgb(255, 129, 120);
+  color: #38832f;
   border-radius: 100%;
 }
 .sec4 button:hover {
@@ -390,6 +401,17 @@ main {
   }
   .sec2 .car-wrap .chart-box {
     margin-top: 36px;
+  }
+
+  .sec2 button {
+    width: 86px;
+    height: 86px;
+    font-size: 24px;
+    padding: 10px;
+  }
+  .sec2 button:hover {
+    color: #38832f;
+    border: none;
   }
   .sec3 {
     height: 100%;

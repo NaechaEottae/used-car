@@ -105,7 +105,9 @@ export default function Home() {
       </div>
       <div className="sec4">
         <p>
+          <br />
           이런 차량도 상담 가능합니다
+          <br />
           <br />✅ 주행거리 20만km 이상
           <br />✅ 사고 이력 차량
           <br />✅ 오래된 연식
@@ -114,9 +116,10 @@ export default function Home() {
           <br />✅ 운행 불가 차량
           <br />✅ 수출 가능 차량
           <br />✅ 폐차 대상 차량
-          <br /> 폐차하기 전에{" "}
+          <br /> 폐차하기 전에 <br />
           <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
           에서 편하게 상담해보세요!
+          <br />
           <br />
         </p>
         <a href="tel:+821044715896">
