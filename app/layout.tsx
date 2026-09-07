@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     "naver-site-verification": "9452a2aa9833c54cbb5d0ebd512da001524855de",
     "google-site-verification": "b37BTrJB_RuH9ElDsUaG61sKOOJz4WNejwbE8rIOBwk",
   },
+  metadataBase: new URL("http://www.내차어때.com"),
+  // metadataBase: new URL("https://used-car-tau.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 // TODO : 메타 OG 타이틀, 설명 동적 생성 작업
