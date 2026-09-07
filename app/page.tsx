@@ -58,11 +58,7 @@ export default function Home() {
         </div>
       </div>
       <div className="sec3">
-        <h3>
-          내차 처분, 한곳에서 비교하고 결정하세요.
-          {/* <span style={{ fontFamily: "GiantsInline" }}>내차어때</span> 의
-          신속하고 정확한 서비스를 약속합니다 */}
-        </h3>
+        <h3>내 차 처분, 한 곳에서 비교하고 결정하세요.</h3>
         <div className="card-wrap">
           <div className="card">
             직접 운영
@@ -116,6 +112,7 @@ export default function Home() {
           <br />✅ 운행 불가 차량
           <br />✅ 수출 가능 차량
           <br />✅ 폐차 대상 차량
+          <br />
           <br /> 폐차하기 전에 <br />
           <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
           에서 편하게 상담해보세요!
