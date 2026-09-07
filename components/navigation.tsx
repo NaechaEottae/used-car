@@ -39,7 +39,7 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <span
+              <div
                 style={{
                   fontFamily: "GiantsInline",
                   fontSize: "24px",
@@ -47,7 +47,7 @@ export default function Navigation() {
                 }}
               >
                 내차어때
-              </span>
+              </div>
               {/* <Image className="logo" src={logo} alt="logo" /> */}
             </Link>
             <ul className="sub">
