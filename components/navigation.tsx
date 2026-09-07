@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../public/logo.png";
 import menu from "../public/menu_icon.png";
 import "../app/globals.css";
 import { useEffect, useState } from "react";
@@ -48,7 +47,6 @@ export default function Navigation() {
               >
                 내차어때
               </div>
-              {/* <Image className="logo" src={logo} alt="logo" /> */}
             </Link>
             <ul className="sub">
               <Link href="/information">
@@ -85,14 +83,15 @@ export default function Navigation() {
             onClick={() => setResponsiveMenuState(!responsiveMenuState)}
           />
           <Link href="/">
-            <Image
-              className="logo"
-              src={logo}
-              alt="logo"
-              onClick={() => {
-                setResponsiveMenuState(false);
+            <div
+              style={{
+                fontFamily: "GiantsInline",
+                fontSize: "20px",
+                color: "#38832f",
               }}
-            />
+            >
+              내차어때
+            </div>
           </Link>
         </div>
         {responsiveMenuState && (

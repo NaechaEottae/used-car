@@ -89,10 +89,6 @@ header {
     display: none;
   }
 }
-.logo {
-  width: 125px;
-  height: 94px;
-}
 .nav > ul {
   display: flex;
   flex-direction: row;
@@ -157,11 +153,11 @@ header {
     width: 34px;
     margin: 8px 14px;
   }
-  .responsive-nav .menu-wrap .logo {
+  /* .responsive-nav .menu-wrap .logo {
     cursor: pointer;
     width: 80px;
     margin: 0px;
-  }
+  } */
   .responsive-nav ul {
     display: flex;
     flex-direction: column;

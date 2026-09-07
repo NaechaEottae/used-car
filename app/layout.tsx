@@ -6,7 +6,6 @@ import Script from "next/script";
 import "./globals.css";
 import Navigaion from "../components/navigation";
 import Floatings from "../components/floatings";
-import logo from "../public/logo.png";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -66,7 +65,6 @@ export default function RootLayout({
         <main>{children}</main>
         <footer>
           <div>
-            {/* <Image style={{ width: "120px" }} src={logo} alt="logo" /> */}
             <p style={{ paddingLeft: "4px" }}>
               <span style={{ fontFamily: "GiantsInline", fontSize: "20px" }}>
                 내차어때
