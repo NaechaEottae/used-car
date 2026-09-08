@@ -1,7 +1,5 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import searchBlogReview from "../api/GET";
+// import { useEffect, useState } from "react";
+// import searchBlogReview from "../api/GET";
 import Image from "next/image";
 import review01 from "../../public/review01.jpg";
 import review02 from "../../public/review02.jpg";

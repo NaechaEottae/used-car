@@ -1,5 +1,5 @@
-import Image from "next/image";
-import mockup from "../../public/mockup2.png";
+// import Image from "next/image";
+// import mockup from "../../public/mockup2.png";
 
 export default function Information() {
   return (

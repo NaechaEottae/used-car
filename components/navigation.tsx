@@ -6,8 +6,11 @@ import Image from "next/image";
 import menu from "../public/menu_icon.png";
 import "../app/globals.css";
 import { useEffect, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
 export default function Navigation() {
+  console.log("usePathname", usePathname());
+  console.log("useSearchParams", useSearchParams());
   const [responsiveMenuState, setResponsiveMenuState] =
     useState<boolean>(false);
 

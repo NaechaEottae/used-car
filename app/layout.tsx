@@ -1,9 +1,8 @@
-"use client";
 import type { Metadata, ResolvingMetadata } from "next";
-import { usePathname, useSearchParams } from "next/navigation";
-import Image from "next/image";
+// import { usePathname, useSearchParams } from "next/navigation";
+// import Image from "next/image";
 
-import Script from "next/script";
+// import Script from "next/script";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigaion from "../components/navigation";
@@ -61,8 +60,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log("usePathname", usePathname());
-  console.log("useSearchParams", useSearchParams());
+  // console.log("usePathname", usePathname());
+  // console.log("useSearchParams", useSearchParams());
 
   return (
     <html lang="kr">
