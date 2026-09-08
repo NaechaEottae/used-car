@@ -11,22 +11,22 @@ export default function Home() {
       <div className="sec1"></div>
       <div className="sec2">
         <div className="msg-box">
-          <h3>
+          <h1>
             내 차, <br />
             어디에 팔아야
             <br />
             가장 이득일까?
             <br />
-          </h3>
+          </h1>
           <p>
-            내 차, 처분도 똑똑하게.
+            내 차, 현명하게 처리하세요.
             <br />
             <br />
             매매부터 수출,폐차까지
             <br />
             내차어때에서 한번에 비교하고
             <br />
-            가장 좋은 방법 선택하세요.
+            가장 좋은 방법으로 선택하세요.
           </p>
           <a href="tel:+821044715896">
             <button>내 차 무료 견적 받기</button>
@@ -120,7 +120,7 @@ export default function Home() {
           <br />✅ 압류 차량
           <br />✅ 방전된 차량
           <br />
-          <br /> 폐차하기 전에 <br />
+          <br /> 무작정 폐차하지말고, <br />
           <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
           에서 편하게 상담해보세요!
           <br />

@@ -217,7 +217,7 @@ main {
   margin: 24px 0;
   gap: 32px;
 }
-.sec2 .msg-box h3 {
+.sec2 .msg-box h1 {
   font-weight: 700;
   color: black;
   font-size: 32px;
@@ -548,7 +548,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-.review-wrap h3 {
+.review-wrap h1 {
   font-size: 32px;
 }
 .content-wrap {
@@ -597,7 +597,7 @@ main {
     margin-top: 52px;
     padding: 18px;
   }
-  .review-wrap h3 {
+  .review-wrap h1 {
     font-size: 24px;
   }
   .card {

@@ -28,7 +28,7 @@ export default function CustomerReview() {
   return (
     <>
       <div className="review-wrap">
-        <h3>고객리뷰</h3>
+        <h1>내차어때 고객리뷰</h1>
         <div className="content-wrap">
           <div className="card">
             <Image className="card-image" src={review12} alt="review" />

@@ -6,8 +6,8 @@ export default function Information() {
   return (
     <>
       <div className="information-wrap">
-        <h3>회사소개</h3>
         <div className="content">
+          <h1>팔 곳은 많지만, 제대로 비교하는 곳은 내차어때.</h1>
           <div>
             안녕하세요, 내차어때입니다.
             <br />
@@ -29,7 +29,7 @@ export default function Information() {
             언제나 정직하고 친절한 상담을 약속드립니다.
             <br />
           </div>
-          <Image className="mockup" src={mockup} alt="mockup" />
+          {/* <Image className="mockup" src={mockup} alt="mockup" /> */}
         </div>
       </div>
     </>
