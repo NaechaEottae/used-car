@@ -1,3 +1,4 @@
+"use client";
 import type { Metadata, ResolvingMetadata } from "next";
 import { usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
@@ -17,8 +18,6 @@ import Floatings from "../components/floatings";
 //   variable: "--font-geist-mono",
 //   subsets: ["latin"],
 // });
-console.log("usePathname", usePathname);
-console.log("useSearchParams", useSearchParams);
 export const metadata: Metadata = {
   title: "중고차 매입·수출·폐차 | 내차어때",
   description:
@@ -62,6 +61,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("usePathname", usePathname());
+  console.log("useSearchParams", useSearchParams());
+
   return (
     <html lang="kr">
       <body>
