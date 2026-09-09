@@ -375,7 +375,7 @@ main {
   align-self: center;
 }
 .sec4 {
-  padding: 0 16% 0 16%;
+  padding: 96px 16% 100px 16%;
   height: auto;
   background-color: #72b866;
   color: white;
@@ -383,8 +383,6 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 96px;
-  margin-bottom: 100px;
 }
 .sec4 p {
   color: white;
@@ -562,7 +560,7 @@ main {
   background-color: #38832f;
   line-height: 32px;
 }
-.information-wrap h3 {
+.information-wrap h1 {
   font-size: 36px;
   margin: 32px 0;
 }
@@ -643,10 +641,11 @@ main {
   border-radius: 30px;
   gap: 24px;
   background-color: #72b866;
+  color: white;
   padding: 24px;
 }
 .card:nth-child(odd) {
-  background-color: #8edd80;
+  background-color: #38832f;
 }
 .card-image {
   width: 240px;
@@ -664,7 +663,6 @@ main {
   margin-bottom: 12px;
 }
 .small-font {
-  color: #38832f;
   font-size: 14px;
 }
 @media (max-width: 991px) {
