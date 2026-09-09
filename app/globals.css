@@ -417,6 +417,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .sec5 div {
   display: flex;
@@ -426,6 +427,7 @@ main {
 }
 .sec5 h3 {
   font-size: 24px;
+  margin-bottom: 12px;
 }
 .sec5 h5 {
   color: #38832f;
