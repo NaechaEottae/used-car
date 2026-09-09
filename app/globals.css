@@ -383,6 +383,8 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 96px;
+  margin-bottom: 100px;
 }
 .sec4 p {
   color: white;
@@ -410,7 +412,7 @@ main {
 }
 
 .sec5 {
-  padding: 16%;
+  padding: 0 16% 0 16%;
   height: auto;
   background-color: white;
   color: black;
@@ -418,12 +420,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 96px;
+  margin-bottom: 100px;
 }
 .sec5 div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 12px;
 }
 .sec5 h3 {
   font-size: 24px;
