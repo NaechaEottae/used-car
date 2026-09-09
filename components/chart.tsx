@@ -15,7 +15,7 @@ export default function ChartCanvas() {
           labels: ["폐차", "국내매매", "해외수출"],
           datasets: [
             {
-              data: [200, 800, 1000],
+              data: [200, 3200, 3600],
               backgroundColor: [
                 "rgb(108, 117, 125)",
                 "rgb(108, 117, 125)",

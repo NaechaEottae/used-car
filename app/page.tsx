@@ -42,11 +42,11 @@ export default function Home() {
               </div>
               <div className="info-line">
                 <span className="title">연식</span>
-                <span className="content">2017년식</span>
+                <span className="content">2024년식</span>
               </div>
               <div className="info-line">
                 <span className="title">주행거리</span>
-                <span className="content">300,000km</span>
+                <span className="content">13,000km</span>
               </div>
             </div>
             <Image className="car-icon" src={car} alt="car icon" />
@@ -54,10 +54,10 @@ export default function Home() {
           <div className="chart-box">
             <div>
               <span>
-                내차 <strong>중고차 수출</strong> 예상 시세
+                내 차 <strong>중고차 수출</strong> 예상 시세
               </span>
               <br />
-              <span className="price">1000</span>
+              <span className="price">3600</span>
               <span>만원</span>
             </div>
             <ChartCanvas />
@@ -137,26 +137,17 @@ export default function Home() {
           <div className="review-card">
             <h5>중고차 구매</h5>
             <p>
-              "너무 친절하게 잘해주셨어요
-              <br />
-              블박 하이패스 오일정비까지 다해주시고
-              <br />
-              가격도 너무 합리적으로 잘해주셨어요
-              <br />
-              주변에 추천도 꼭 드릴게요"
+              "너무 친절하게 잘해주셨어요 블박 하이패스 오일정비까지 다해주시고
+              가격도 너무 합리적으로 잘해주셨어요 주변에 추천도 꼭 드릴게요"
             </p>
             <span>sso****고객님</span>
           </div>
           <div className="review-card">
             <h5>중고차 수출</h5>
             <p>
-              "제 첫 차를 떠나보내는 것이라 마음이 많이 복잡했는데
-              <br />
-              주실장님께서 직접 찾아와 시간에 맞추어 잘 안내해주시고
-              <br />
-              적절한 사유와 가격을 제시해주셔서
-              <br />
-              좋은 추억으로 소중했던 차를 떠나보냈습니다"
+              "제 첫 차를 떠나보내는 것이라 마음이 많이 복잡했는데 주실장님께서
+              직접 찾아와 시간에 맞추어 잘 안내해주시고 적절한 사유와 가격을
+              제시해주셔서 좋은 추억으로 소중했던 차를 떠나보냈습니다"
             </p>
             <span>won****고객님</span>
           </div>
@@ -164,14 +155,9 @@ export default function Home() {
             <h5>폐차</h5>
             <p>
               "차 수리비가 많이 나오면서 중고로 팔지, 수출을 보낼지, 폐차 진행을
-              해야될 지
-              <br />
-              고민이 많았는데 사장님께서 친절하게 잘 설명해주셔서
-              <br />
-              고민 끝에 폐차 진행하고 왔습니다.
-              <br />
-              폐차가 처음이긴 하지만 평택 근교에 거주하시는 분들은 무조건 여기
-              방문하시면 될 거 같습니다!!"
+              해야될 지 고민이 많았는데 사장님께서 친절하게 잘 설명해주셔서 고민
+              끝에 폐차 진행하고 왔습니다. 폐차가 처음이긴 하지만 평택 근교에
+              거주하시는 분들은 무조건 여기 방문하시면 될 거 같습니다!!"
             </p>
             <span>lk****고객님</span>
           </div>

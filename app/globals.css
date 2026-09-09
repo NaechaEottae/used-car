@@ -412,7 +412,7 @@ main {
 .sec5 {
   padding: 0 16% 0 16%;
   height: auto;
-  background-color: #72b866;
+  background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
@@ -424,10 +424,15 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+.sec5 h3 {
+  font-size: 24px;
+}
 .sec5 h5 {
   color: #38832f;
 }
 .sec5 .review-card {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #eeeeee;
   border-radius: 18px;
