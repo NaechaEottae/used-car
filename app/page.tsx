@@ -24,6 +24,7 @@ export default function Home() {
             <br />
             중고차 매매부터 수출, 폐차까지ㅡ
             <br />
+            <br />
             내차어때에서 한 번에 비교하고,
             <br />
             가장 유리한 방법으로 선택하세요!
@@ -57,11 +58,12 @@ export default function Home() {
                 가장 유리한 처분 방법 : <strong>중고차 수출</strong>
               </span>
               <br />
+              <ChartCanvas />
+              <br />
               <span>예상 시세</span>
               <span className="price">3600</span>
               <span>만원</span>
             </div>
-            <ChartCanvas />
           </div>
         </div>
       </div>
