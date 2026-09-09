@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "중고차 수출 | 내차어때",
+};
+
 export default function ExportCar() {
   return (
     <>
