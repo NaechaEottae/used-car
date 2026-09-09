@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 export default function Navigation() {
   const [responsiveMenuState, setResponsiveMenuState] =
     useState<boolean>(false);
-
+  console.log("업뎃");
   useEffect(() => {
     const submenuList = document.querySelectorAll(".nav>ul>li");
     submenuList.forEach((submenu) => {
