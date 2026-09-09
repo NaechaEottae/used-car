@@ -163,7 +163,7 @@ export default function Home() {
           </div>
         </div>
         <a href="/customer-review">
-          <button>실제 고객 후기 더보기</button>
+          <button>고객 후기 더보기</button>
         </a>
       </div>
     </>
