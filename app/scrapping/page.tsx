@@ -17,6 +17,20 @@ export default function Scrapping() {
         <div className="question-card">
           <h5>
             <span>Q.</span>
+            {"  "}폐차는 어떤 차량이 하나요?
+          </h5>
+          <p>
+            · 엔진 및 미션 컨디션이 좋지 않은 차
+            <br />
+            · 하부 프레임이 완전히 녹슬어 부러진 차
+            <br />
+            · 화재/침수 등으로 복구 불가능한 차
+            <br />
+          </p>
+        </div>
+        <div className="question-card">
+          <h5>
+            <span>Q.</span>
             {"  "}폐차시 진행 절차가 어떻게 되나요?
           </h5>
           <p>

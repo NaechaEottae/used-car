@@ -18,6 +18,20 @@ export default function ExportCar() {
         <div className="question-card">
           <h5>
             <span>Q.</span>
+            {"  "}중고차 수출은 어떤 차량이 가능한가요?
+          </h5>
+          <p>
+            · 주행거리 15만~30만km 이상
+            <br />
+            · 연식 10년 이상 된 노후 차량
+            <br />
+            · 감가 요인(색상, 단순 교환, 엔진경고등 등) 많은 차량
+            <br />
+          </p>
+        </div>
+        <div className="question-card">
+          <h5>
+            <span>Q.</span>
             {"  "}중고차 수출시 진행 절차가 어떻게 되나요?
           </h5>
           <p>

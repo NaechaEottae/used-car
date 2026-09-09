@@ -16,6 +16,42 @@ export default function Sales() {
         <div className="question-card">
           <h5>
             <span>Q.</span>
+            {"  "}중고차 매매는 어떤 차량이 가능한가요?
+          </h5>
+          <p>
+            · 연식 5년 이내
+            <br />
+            · 주행거리 10만km 미만
+            <br />
+            · 무사고 + 외관 깨끗함
+            <br />
+          </p>
+        </div>
+        <div className="question-card">
+          <h5>
+            <span>Q.</span>
+            {"  "}중고차 가격을 결정 짓는 요소에는 무엇이 있나요?
+          </h5>
+          <p>
+            · 차량 연식
+            <br />
+            · 주행거리
+            <br />
+            · 사고 여부
+            <br />
+            · 옵션
+            <br />
+            · 외관 상태
+            <br />
+            · 정비 상태
+            <br />
+            · 시장 수요
+            <br />
+          </p>
+        </div>
+        <div className="question-card">
+          <h5>
+            <span>Q.</span>
             {"  "}중고차 매매시 진행 절차가 어떻게 되나요?
           </h5>
           <p>
