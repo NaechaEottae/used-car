@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "실제 내차어때를 이용하신 고객님들의 생생한 중고차 매입·수출·폐차 이용 후기를 확인해보세요. 높은 만족도와 솔직한 평가로 신뢰할 수 있는 거래를 약속드립니다.",
   alternates: {
-    canonical: "/export-car",
+    canonical: "/customer-review",
   },
 };
 
