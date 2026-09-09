@@ -23,6 +23,7 @@ export default function Information() {
             <br />
             지금 내차어때에서 시작해 보세요.
             <br />
+            <br />
             언제나 정직하고 친절한 상담을 약속드립니다.
             <br />
           </div>

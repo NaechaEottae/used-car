@@ -409,6 +409,36 @@ main {
   cursor: pointer;
 }
 
+.sec5 {
+  padding: 0 16% 0 16%;
+  height: auto;
+  background-color: #72b866;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec5 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec5 h5 {
+  color: #38832f;
+}
+.sec5 .review-card {
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
 /* 반응형 */
 @media (max-width: 991px) {
   /* 모바일 */
