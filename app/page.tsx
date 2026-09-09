@@ -1,5 +1,5 @@
 import Image from "next/image";
-import car from "../public/sorento.png";
+import car from "../public/sportage.png";
 import carCheck from "../public/car_check_icon.png";
 import carIcon from "../public/white_car_icon.png";
 import handshack from "../public/handshake_icon.png";
