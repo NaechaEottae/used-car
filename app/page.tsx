@@ -22,11 +22,11 @@ export default function Home() {
             내 차, 현명하게 처분하세요.
             <br />
             <br />
-            중고차 매매부터 수출, 폐차까지
+            중고차 매매부터 수출, 폐차까지ㅡ
             <br />
-            내차어때에서 한 번에 비교하고
+            내차어때에서 한 번에 비교하고,
             <br />
-            가장 유리한 방법으로 선택하세요.
+            가장 유리한 방법으로 선택하세요!
           </p>
           <a href="tel:+821044715896">
             <button>내 차 무료 견적 받기</button>
@@ -54,9 +54,10 @@ export default function Home() {
           <div className="chart-box">
             <div>
               <span>
-                내 차 <strong>중고차 수출</strong> 예상 시세
+                가장 유리한 처분 방법 : <strong>중고차 수출</strong>
               </span>
               <br />
+              <span>예상 시세</span>
               <span className="price">3600</span>
               <span>만원</span>
             </div>

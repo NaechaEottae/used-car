@@ -275,7 +275,7 @@ main {
   border: 4px solid #38832f;
   border-radius: 8px;
   color: black;
-  padding: 2px 4px;
+  padding: 3px 4px;
   letter-spacing: 4px;
 }
 .sec2 .chart-box {
@@ -518,7 +518,7 @@ main {
     gap: 14px;
   }
   .sec3 .card-wrap .card {
-    font-size: 16px;
+    font-size: 18px;
     padding: 12px;
     height: 280px;
   }
