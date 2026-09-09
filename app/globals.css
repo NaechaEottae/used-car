@@ -285,6 +285,7 @@ main {
   align-items: center;
   gap: 24px;
   margin-top: 56px;
+  text-align: center;
 }
 .sec2 strong {
   color: #38832f;
@@ -599,7 +600,7 @@ main {
   .information-wrap .mockup {
     display: none;
   }
-  .information-wrap h3 {
+  .information-wrap h1 {
     font-size: 24px;
     margin: 12px;
   }
