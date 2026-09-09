@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: "중고차 수출 | 내차어때",
+  description:
+    "주행거리가 많거나 연식이 오래되어 국내 판매가 어려운 차량도 OK! 해외 직수출로 국내 시세 대비 더 높은 가격을 받아보세요. 무료 견적 상담 가능.",
+  alternates: {
+    canonical: "/export-car",
+  },
 };
 
 export default function ExportCar() {

@@ -1,5 +1,3 @@
-// import { useEffect, useState } from "react";
-// import searchBlogReview from "../api/GET";
 import Image from "next/image";
 import review01 from "../../public/review01.jpg";
 import review02 from "../../public/review02.jpg";
@@ -14,15 +12,18 @@ import review10 from "../../public/review10.jpg";
 import review11 from "../../public/review11.jpg";
 import review12 from "../../public/review12.jpg";
 
-export default function CustomerReview() {
-  // const [reviewData, setReviewData] = useState([]);
-  // useEffect(() => {
-  //   searchBlogReview().then((data) => {
-  //     setReviewData(data);
-  //     console.log("고객리뷰LIST", data);
-  //   });
-  // }, []);
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "실제 고객 리뷰 | 내차어때",
+  description:
+    "실제 내차어때를 이용하신 고객님들의 생생한 중고차 매입·수출·폐차 이용 후기를 확인해보세요. 높은 만족도와 솔직한 평가로 신뢰할 수 있는 거래를 약속드립니다.",
+  alternates: {
+    canonical: "/export-car",
+  },
+};
+
+export default function CustomerReview() {
   return (
     <>
       <div className="review-wrap">
