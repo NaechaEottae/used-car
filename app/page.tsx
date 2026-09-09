@@ -55,7 +55,8 @@ export default function Home() {
           <div className="chart-box">
             <div>
               <span>
-                가장 유리한 처분 방법 : <strong>중고차 수출</strong>
+                해당 차량은 <strong>중고차 수출</strong>이<br />
+                가장 유리합니다.
               </span>
               <br />
               <ChartCanvas />
