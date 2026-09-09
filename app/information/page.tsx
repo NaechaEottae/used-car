@@ -6,10 +6,10 @@ export default function Information() {
     <>
       <div className="information-wrap">
         <div className="content">
-          <h1>팔 곳은 많지만, 제대로 비교하는 곳은 내차어때.</h1>
           <div>
-            안녕하세요, 내차어때입니다.
+            <h1>팔 곳은 많지만, 제대로 비교하는 곳은 내차어때.</h1>
             <br />
+            안녕하세요, 내차어때입니다.
             <span className="strong">내차어때</span>는 자동차{" "}
             <span className="strong">매매 상사</span>와 중고차{" "}
             <span className="strong">수출 업체</span>를<br />
