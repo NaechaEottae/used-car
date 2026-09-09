@@ -2,19 +2,21 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+import type { Metadata, ResolvingMetadata } from "next";
+import { generateMetadata } from "./generateMetadata";
 
 import menu from "../public/menu_icon.png";
 import "../app/globals.css";
 import { useEffect, useState } from "react";
-import { generateMetadata } from "./generateMetadata";
-import { usePathname } from "next/navigation";
 
 export default function Navigation() {
-  const param = usePathname().toString();
-  generateMetadata(param);
-
   const [responsiveMenuState, setResponsiveMenuState] =
     useState<boolean>(false);
+
+  const param = usePathname().toString();
+  // generateMetadata(param);
+  console.log("param", param);
 
   useEffect(() => {
     const submenuList = document.querySelectorAll(".nav>ul>li");

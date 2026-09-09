@@ -1,6 +1,3 @@
-// import Image from "next/image";
-// import mockup from "../../public/mockup2.png";
-
 export default function Information() {
   return (
     <>
@@ -10,6 +7,7 @@ export default function Information() {
             <h1>팔 곳은 많지만, 제대로 비교하는 곳은 내차어때.</h1>
             <br />
             안녕하세요, 내차어때입니다.
+            <br />
             <span className="strong">내차어때</span>는 자동차{" "}
             <span className="strong">매매 상사</span>와 중고차{" "}
             <span className="strong">수출 업체</span>를<br />
@@ -28,7 +26,6 @@ export default function Information() {
             언제나 정직하고 친절한 상담을 약속드립니다.
             <br />
           </div>
-          {/* <Image className="mockup" src={mockup} alt="mockup" /> */}
         </div>
       </div>
     </>

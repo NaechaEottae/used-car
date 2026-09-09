@@ -1,6 +1,3 @@
-import type { Metadata, ResolvingMetadata } from "next";
-// import { usePathname, useSearchParams } from "next/navigation";
-
 import "./globals.css";
 import Navigaion from "../components/navigation";
 import Floatings from "../components/floatings";
@@ -10,7 +7,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="kr">
       <body>

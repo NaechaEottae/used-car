@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export async function generateMetadata(params: string): Promise<Metadata> {
   const resolvedParams = await params;
-  console.log("resolvedParams", resolvedParams);
+  console.log("업데이트 resolvedParams", resolvedParams);
   return {
     title: "중고차 매입·수출·폐차 | 내차어때",
     description:
