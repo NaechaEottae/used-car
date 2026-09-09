@@ -410,7 +410,7 @@ main {
 }
 
 .sec5 {
-  padding: 0 16% 0 16%;
+  padding: 16%;
   height: auto;
   background-color: white;
   color: black;
@@ -434,6 +434,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  width: 260px;
   border: 1px solid #eeeeee;
   border-radius: 18px;
   padding: 32px;
