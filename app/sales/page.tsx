@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "중고차 매매 | 내차어때",
+  title: "중고차 매매 | 평택·안성·천안 및 전국 어디서나 내차어때",
   description:
     "평택·안성·천안 및 전국 어디서나 간편하게! 중고차 매매, 복잡한 서류 절차 없이 방문 상담부터 당일 명의 이전까지 한 번에 처리해 드립니다.",
   alternates: {

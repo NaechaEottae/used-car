@@ -390,19 +390,22 @@ main {
   line-height: 46px;
 }
 .sec4 button {
-  width: 184px;
-  height: 184px;
-  font-size: 34px;
-  padding: 12px;
-  cursor: pointer;
-  margin-top: 24px;
-  background-color: white;
-  color: #38832f;
-  border-radius: 100%;
+  width: 250px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid #38842f;
+  border-radius: 10px;
+  background-color: #38842f;
+  color: white;
+  transition: all 0.2s ease;
 }
+
 .sec4 button:hover {
-  color: #38832f;
-  border: 6px solid #38832f;
+  background-color: #1f5c2a;
+  border-color: #1f5c2a;
+  color: white;
   cursor: pointer;
 }
 

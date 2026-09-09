@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "폐차 | 내차어때",
+  title: "폐차 견적 및 말소 | 평택·안성·천안 및 전국 어디서나 내차어때",
   description:
     "일반 폐차, 조기 폐차, 압류 폐차까지! 최고가 폐차 보상금 당일 지급 및 무료 견인 서비스를 제공합니다. 복잡한 말소 절차까지 깔끔하게 대행해 드립니다.",
   alternates: {

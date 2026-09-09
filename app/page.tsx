@@ -126,9 +126,9 @@ export default function Home() {
           <br />
           <br />
         </p>
-        <a href="tel:+821044715896">
-          <button>상담하기</button>
-        </a>
+          <a href="tel:+821044715896">
+            <button>무료 상담 받기</button>
+          </a>
       </div>
     </>
   );
