@@ -28,8 +28,7 @@ export default function CustomerReview() {
     <>
       <div className="review-floating">
         <a href="https://blog.naver.com/howsmycar" target="_blank">
-          {" "}
-          블로그에서 더 많은 고객리뷰를 확인하세요!{" "}
+          &nbsp;블로그에서 더 많은 고객리뷰를 확인하세요!&nbsp;
         </a>
       </div>
       <div className="review-wrap">
