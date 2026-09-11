@@ -639,7 +639,7 @@ main {
   display: inline-flex;
   background-color: white;
   color: #38832f;
-  border-radius: 12px;
+  border-radius: 8px;
   cursor: pointer;
 }
 .review-wrap h1 {
