@@ -632,9 +632,14 @@ main {
 .review-floating {
   position: fixed;
   bottom: 40px;
-  right: 50%;
-  left: -50%;
+  width: 100%;
   text-align: center;
+  cursor: pointer;
+}
+.review-floating a {
+  background-color: #38832f;
+  color: white;
+  border-radius: 50%;
 }
 .review-wrap h1 {
   font-size: 32px;
