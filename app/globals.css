@@ -637,8 +637,8 @@ main {
 }
 .review-floating a {
   display: inline-flex;
-  background-color: #38832f;
-  color: white;
+  background-color: white;
+  color: #38832f;
   border-radius: 12px;
   cursor: pointer;
 }
