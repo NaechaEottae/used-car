@@ -634,12 +634,13 @@ main {
   bottom: 40px;
   width: 100%;
   text-align: center;
-  cursor: pointer;
 }
 .review-floating a {
+  display: inline-flex;
   background-color: #38832f;
   color: white;
-  border-radius: 50%;
+  border-radius: 12px;
+  cursor: pointer;
 }
 .review-wrap h1 {
   font-size: 32px;
