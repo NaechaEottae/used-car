@@ -628,6 +628,14 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+.review-floating {
+  position: fixed;
+  bottom: 40px;
+  right: 50%;
+  left: -50%;
+  text-align: center;
+}
 .review-wrap h1 {
   font-size: 32px;
 }

@@ -26,6 +26,11 @@ export const metadata: Metadata = {
 export default function CustomerReview() {
   return (
     <>
+      <div className="review-floating">
+        <a href="https://blog.naver.com/howsmycar" target="_blank">
+          더 많은 리뷰를 확인하세요!
+        </a>
+      </div>
       <div className="review-wrap">
         <h1>내차어때 고객리뷰</h1>
         <div className="content-wrap">
