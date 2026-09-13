@@ -10,26 +10,26 @@ export default function Navigation() {
   const [responsiveMenuState, setResponsiveMenuState] =
     useState<boolean>(false);
 
-  useEffect(() => {
-    const submenuList = document.querySelectorAll(".nav>ul>li");
-    submenuList.forEach((submenu) => {
-      submenu.addEventListener("mouseover", () => {
-        submenu.querySelectorAll("ul").forEach((ul) => {
-          ul.style.display = "block";
-        });
-      });
-      submenu.addEventListener("mouseout", () => {
-        submenu.querySelectorAll("ul").forEach((ul) => {
-          ul.style.display = "none";
-        });
-      });
-      submenu.addEventListener("click", () => {
-        submenu.querySelectorAll("ul").forEach((ul) => {
-          ul.style.display = "none";
-        });
-      });
-    });
-  }, []);
+  // useEffect(() => {
+  //   const submenuList = document.querySelectorAll(".nav>ul>li");
+  //   submenuList.forEach((submenu) => {
+  //     submenu.addEventListener("mouseover", () => {
+  //       submenu.querySelectorAll("ul").forEach((ul) => {
+  //         ul.style.display = "block";
+  //       });
+  //     });
+  //     submenu.addEventListener("mouseout", () => {
+  //       submenu.querySelectorAll("ul").forEach((ul) => {
+  //         ul.style.display = "none";
+  //       });
+  //     });
+  //     submenu.addEventListener("click", () => {
+  //       submenu.querySelectorAll("ul").forEach((ul) => {
+  //         ul.style.display = "none";
+  //       });
+  //     });
+  //   });
+  // }, []);
 
   return (
     <>
@@ -47,14 +47,14 @@ export default function Navigation() {
                 내차어때
               </div>
             </Link>
-            <ul className="sub">
+            {/* <ul className="sub">
               <Link href="/information">
                 <li>회사소개</li>
               </Link>
               <Link href="/directions">
                 <li>오시는길</li>
               </Link>
-            </ul>
+            </ul> */}
           </li>
           <Link href="/sales">
             <li>중고차 매매</li>
@@ -97,7 +97,7 @@ export default function Navigation() {
         </div>
         {responsiveMenuState && (
           <ul>
-            <Link
+            {/* <Link
               href="/information"
               onClick={() => setResponsiveMenuState(!responsiveMenuState)}
             >
@@ -108,7 +108,7 @@ export default function Navigation() {
               onClick={() => setResponsiveMenuState(!responsiveMenuState)}
             >
               <li>오시는길</li>
-            </Link>
+            </Link> */}
             <Link
               href="/sales"
               onClick={() => setResponsiveMenuState(!responsiveMenuState)}
