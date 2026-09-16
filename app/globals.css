@@ -899,6 +899,7 @@ button:hover {
 @media (max-width: 1024px) {
   .export-wrap {
     padding: 0 12px;
+    margin-top: 72px;
   }
 
   .export-wrap .sec {
@@ -955,9 +956,9 @@ button:hover {
 @media (max-width: 600px) {
   .export-wrap {
     padding: 0 10px;
-    padding-top: 56px;
     gap: 20px;
     overflow-x: hidden;
+    margin-top: 72px;
   }
 
   .export-wrap .sec {
