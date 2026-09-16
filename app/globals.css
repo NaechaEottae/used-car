@@ -64,6 +64,10 @@ body {
   background: white;
   color: var(--foreground);
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 /* ------------------------------------main start */
 main {
@@ -539,6 +543,7 @@ button:hover {
   gap: 36px;
   padding: 36px;
   margin-top: 92px;
+  overflow-x: hidden;
 }
 .export-wrap .sec {
   display: flex;
@@ -624,8 +629,8 @@ button:hover {
 }
 .text {
   position: absolute;
-  width: 200px;
-  top: -10px;
+  left: 0;
+  width: 140px;
   left: -50px;
 }
 .circle {
@@ -635,14 +640,14 @@ button:hover {
   height: 180px;
   border-radius: 100%;
   top: 20px;
-  left: 120px;
+  left: 70px;
 }
 .circle:nth-child(2) {
   width: 200px;
   height: 200px;
   background-color: rgba(190, 247, 222, 0.544);
   top: 5px;
-  left: 200px;
+  left: 130px;
 }
 .icon-box {
   display: flex;
@@ -952,12 +957,19 @@ button:hover {
     padding: 0 10px;
     padding-top: 56px;
     gap: 20px;
+    overflow-x: hidden;
   }
 
   .export-wrap .sec {
     padding: 24px 18px;
     border-radius: 18px;
     gap: 28px;
+  }
+  .export-wrap .image-box {
+    width: 100%;
+    max-width: 360px;
+    min-height: 220px;
+    overflow: hidden;
   }
 
   .export-wrap h1 {
@@ -975,6 +987,32 @@ button:hover {
     line-height: 1.6;
   }
 
+  .sportage {
+    width: 85%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .text {
+    width: 140px;
+    top: 0;
+    left: 0;
+  }
+
+  .circle {
+    width: 130px;
+    height: 130px;
+    top: 30px;
+    left: 70px;
+  }
+
+  .circle:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    left: 130px;
+  }
   .export-wrap .icon-box {
     flex: 0 0 72px;
     width: 72px;
