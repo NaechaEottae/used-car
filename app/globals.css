@@ -86,13 +86,13 @@ button {
   background-color: #38842f;
   color: white;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #1f5c2a;
   border-color: #1f5c2a;
   color: white;
-  cursor: pointer;
 }
 
 .sec1 {
