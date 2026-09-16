@@ -40,7 +40,7 @@ export default function ExportCar() {
               수요를 통해 더 높은 가격을 받을 수 있습니다. 내차어때가 가장
               유리한 수출 방법을 찾아드립니다.
             </p>
-            <a href="tel:01044715896">
+            < a href="tel:01044715896" target="_parent">
               <button>무료 견적 받기</button>
             </a>
           </div>
@@ -303,7 +303,7 @@ export default function ExportCar() {
               전문 상담사가 차량에 맞는 방법을 친절하게 안내해드립니다.
             </p>
 
-            <a href="tel:01044715896">
+            < a href="tel:01044715896" target="_parent">
               <button>내 차 무료 견적 받기</button>
             </a>
           </div>
