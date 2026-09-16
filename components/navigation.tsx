@@ -4,144 +4,108 @@ import Link from "next/link";
 import Image from "next/image";
 import menu from "../public/menu_icon.png";
 import "../app/globals.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Navigation() {
   const [responsiveMenuState, setResponsiveMenuState] =
     useState<boolean>(false);
 
-  // useEffect(() => {
-  //   const submenuList = document.querySelectorAll(".nav>ul>li");
-  //   submenuList.forEach((submenu) => {
-  //     submenu.addEventListener("mouseover", () => {
-  //       submenu.querySelectorAll("ul").forEach((ul) => {
-  //         ul.style.display = "block";
-  //       });
-  //     });
-  //     submenu.addEventListener("mouseout", () => {
-  //       submenu.querySelectorAll("ul").forEach((ul) => {
-  //         ul.style.display = "none";
-  //       });
-  //     });
-  //     submenu.addEventListener("click", () => {
-  //       submenu.querySelectorAll("ul").forEach((ul) => {
-  //         ul.style.display = "none";
-  //       });
-  //     });
-  //   });
-  // }, []);
-
   return (
     <>
-      <div className="nav">
+      {/* =========================
+    PC NAVIGATION
+========================== */}
+      <nav className="nav">
         <ul>
-          <li>
+          {/* 로고 */}
+          <li className="nav-logo">
             <Link href="/">
-              <div
-                style={{
-                  fontFamily: "GiantsInline",
-                  fontSize: "24px",
-                  color: "#38832f",
-                }}
-              >
-                내차어때
-              </div>
+              <span>내차어때</span>
             </Link>
-            {/* <ul className="sub">
-              <Link href="/information">
-                <li>회사소개</li>
-              </Link>
-              <Link href="/directions">
-                <li>오시는길</li>
-              </Link>
-            </ul> */}
           </li>
-          <Link href="/sales">
-            <li>중고차 매매</li>
-          </Link>
-          <Link href="/export-car">
-            <li>중고차 수출</li>
-          </Link>
-          <Link href="/scrapping">
-            <li>폐차</li>
-          </Link>
-          <Link href="/customer-review">
-            <li>고객리뷰</li>
-          </Link>
-          <a href="tel:+821044715896">
-            <li>바로상담받기</li>
-          </a>
+
+          {/* 메뉴 */}
+          <li>
+            <Link href="/sales">중고차 매매</Link>
+          </li>
+
+          <li>
+            <Link href="/export-car">중고차 수출</Link>
+          </li>
+
+          <li>
+            <Link href="/scrapping">폐차</Link>
+          </li>
+
+          <li>
+            <Link href="/customer-review">고객리뷰</Link>
+          </li>
+
+          {/* 무료 견적 */}
+          <li className="nav-estimate">
+            <a href="tel:+821044715896">무료 견적 받기</a>
+          </li>
         </ul>
-      </div>
-      <div className="responsive-nav">
+      </nav>
+
+      {/* =========================
+    MOBILE NAVIGATION
+========================== */}
+      <nav className="responsive-nav">
         <div className="menu-wrap">
-          <Image
-            className="menu"
-            src={menu}
-            alt="menu"
+          {/* 햄버거 버튼 */}
+          <button
+            type="button"
+            className="mobile-menu-button"
+            aria-label="메뉴 열기"
             onClick={() => setResponsiveMenuState(!responsiveMenuState)}
-          />
-          <Link href="/">
-            <div
-              style={{
-                fontFamily: "GiantsInline",
-                fontSize: "20px",
-                color: "#38832f",
-                paddingTop: "12px",
-                paddingRight: "8px",
-              }}
-            >
-              내차어때
-            </div>
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          {/* 모바일 로고 */}
+          <Link href="/" className="mobile-logo">
+            내차어때
           </Link>
+
+          {/* 모바일 무료 견적 */}
+          <a href="tel:+821044715896" className="mobile-estimate-button">
+            무료 견적
+          </a>
         </div>
+
+        {/* 모바일 메뉴 */}
         {responsiveMenuState && (
-          <ul>
-            {/* <Link
-              href="/information"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
-            >
-              <li>회사소개</li>
+          <div className="mobile-menu">
+            <Link href="/sales" onClick={() => setResponsiveMenuState(false)}>
+              중고차 매매
             </Link>
-            <Link
-              href="/directions"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
-            >
-              <li>오시는길</li>
-            </Link> */}
-            <Link
-              href="/sales"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
-            >
-              <li>중고차 매매</li>
-            </Link>
+
             <Link
               href="/export-car"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
+              onClick={() => setResponsiveMenuState(false)}
             >
-              <li>중고차 수출</li>
+              중고차 수출
             </Link>
+
             <Link
               href="/scrapping"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
+              onClick={() => setResponsiveMenuState(false)}
             >
-              <li>폐차</li>
+              폐차
             </Link>
+
             <Link
               href="/customer-review"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
+              onClick={() => setResponsiveMenuState(false)}
             >
-              <li>고객리뷰</li>
+              고객리뷰
             </Link>
-            <a
-              href="tel:+821044715896"
-              onClick={() => setResponsiveMenuState(!responsiveMenuState)}
-            >
-              <li>바로상담받기</li>
-            </a>
-          </ul>
+          </div>
         )}
-      </div>
+      </nav>
     </>
   );
 }

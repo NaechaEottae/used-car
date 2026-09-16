@@ -1,8 +1,8 @@
 import "../app/globals.css";
 import Image from "next/image";
-import kakao from "../public/kakao_icon.png";
-import call from "../public/call_icon.png";
-import blog from "../public/blog_icon.png";
+import kakao from "../public/floating_kakao_icon.png";
+import call from "../public/floating_call_icon.png";
+import blog from "../public/floating_blog_icon.png";
 
 export default function Floating() {
   return (

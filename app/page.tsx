@@ -1,9 +1,10 @@
 import Image from "next/image";
 import car from "../public/sportage.png";
-import carCheck from "../public/car_check_icon.png";
-import carIcon from "../public/white_car_icon.png";
-import handshack from "../public/handshake_icon.png";
+import carCheck from "../public/free-animated-icon-document.png";
+import carIcon from "../public/free-animated-icon-car.png";
+import handshack from "../public/free-animated-icon-handshake.png";
 import ChartCanvas from "@/components/chart";
+import squareRoundedCheck from "../public/square-rounded-check.svg";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
             내 차, 현명하게 처분하세요.
             <br />
             <br />
-            중고차 매매부터 수출 · 폐차까지ㅡ
+            중고차 매매부터 수출 · 폐차까지
             <br />
             <br />
             내차어때에서 한 번에 비교하고,
@@ -111,25 +112,74 @@ export default function Home() {
         </div>
       </div>
       <div className="sec4">
-        <p>
-          <br />
+        <div>
           이런 차량도 상담 가능합니다
           <br />
-          <br />✅ 주행거리 20만km 이상
-          <br />✅ 사고 이력 차량
-          <br />✅ 오래된 연식
-          <br />✅ 외관 손상 차량
-          <br />✅ 침수/고장 차량
-          <br />✅ 노후 경유 차량
-          <br />✅ 압류 차량
-          <br />✅ 방전된 차량
           <br />
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>주행거리 20만km 이상</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>사고 이력 차량</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>오래된 연식</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>외관 손상 차량</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>침수/고장 차량</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>노후 경유 차량</span>
+          </div>
+          <div className="row">
+            <Image
+              className="checkIcon"
+              src={squareRoundedCheck}
+              alt="check icon"
+            />
+            <span>압류 차량</span>
+          </div>
           <br /> 무작정 폐차하지말고, <br />
-          <span style={{ fontFamily: "GiantsInline" }}>내차어때 </span>
+          <span style={{ fontFamily: "GiantsInline", color: "#38832f" }}>
+            내차어때{" "}
+          </span>
           에서 편하게 상담해보세요!
           <br />
           <br />
-        </p>
+        </div>
         <a href="tel:+821044715896">
           <button>무료 상담 받기</button>
         </a>
