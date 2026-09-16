@@ -43,7 +43,7 @@ export default function Navigation() {
 
           {/* 무료 견적 */}
           <li className="nav-estimate">
-            <a href="tel:+821044715896">무료 견적 받기</a>
+            <a href="tel:01044715896">무료 견적 받기</a>
           </li>
         </ul>
       </nav>
@@ -71,7 +71,7 @@ export default function Navigation() {
           </Link>
 
           {/* 모바일 무료 견적 */}
-          <a href="tel:+821044715896" className="mobile-estimate-button">
+          <a href="tel:01044715896" className="mobile-estimate-button">
             무료 견적
           </a>
         </div>

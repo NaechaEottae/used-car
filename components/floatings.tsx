@@ -13,7 +13,7 @@ export default function Floating() {
       <a href="https://open.kakao.com/o/sBNFf1ni" target="_blank">
         <Image className="icon" src={kakao} alt="kakao talk" />
       </a>
-      <a href="tel:+821044715896">
+      <a href="tel:01044715896">
         <Image className="icon" src={call} alt="call" />
       </a>
     </div>

@@ -30,7 +30,7 @@ export default function Home() {
             <br />
             가장 유리한 방법으로 선택하세요!
           </p>
-          <a href="tel:+821044715896">
+          <a href="tel:01044715896">
             <button>내 차 무료 견적 받기</button>
           </a>
         </div>
@@ -180,7 +180,7 @@ export default function Home() {
           <br />
           <br />
         </div>
-        <a href="tel:+821044715896">
+        <a href="tel:01044715896">
           <button>무료 상담 받기</button>
         </a>
       </div>

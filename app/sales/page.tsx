@@ -44,7 +44,7 @@ export default function Sales() {
               중고차 매매부터 수출, 폐차까지
               <br />내 차에 가장 유리한 방법을 비교해드립니다.
             </p>
-            <a href="tel:+821044715896">
+            <a href="tel:01044715896">
               <button>무료 견적 받기</button>
             </a>
           </div>
@@ -234,7 +234,7 @@ export default function Sales() {
               전문 상담사가 차량에 맞는 방법을 친절하게 안내해드립니다.
             </p>
 
-            <a href="tel:+821044715896">
+            <a href="tel:01044715896">
               <button>내 차 무료 견적 받기</button>
             </a>
           </div>
