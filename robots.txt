@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://내차어때.com/sitemap.xml
