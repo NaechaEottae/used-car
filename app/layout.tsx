@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     "google-site-verification": "b37BTrJB_RuH9ElDsUaG61sKOOJz4WNejwbE8rIOBwk",
   },
 
-  metadataBase: new URL("https://내차어때.com"),
+  metadataBase: new URL("https://xn--220b40g8tr17f.com"),
+  // metadataBase: new URL("https://내차어때.com"),
 
   alternates: {
     canonical: "/",

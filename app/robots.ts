@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://내차어때.com/sitemap.xml",
+    sitemap: "https://xn--220b40g8tr17f.com/sitemap.xml",
   };
 }
