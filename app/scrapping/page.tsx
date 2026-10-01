@@ -229,8 +229,7 @@ export default function Scrapping() {
                 <h4>조기 폐차 보조금도 받을 수 있나요?</h4>
                 <span className="faq-plus">+</span>
                 <p>
-                  조기 폐차가 가능한 지정된 전문 폐차장으로서 조기 폐차 접수와
-                  보조금 지급까지 모두 도와드립니다.
+                  조기폐차 가능 여부를 확인하고 지정 폐차장을 통한 접수 및 진행 절차를 안내해드립니다.
                 </p>
               </div>
 
