@@ -476,8 +476,8 @@ button:hover {
   margin-right: 12px;
 }
 
-.sec4 p {
-  font-size: 30px;
+.sec4 div {
+  font-size: 24px;
   line-height: 46px;
 }
 .sec5 {
@@ -491,7 +491,7 @@ button:hover {
   align-items: center;
 }
 .sec5 h3 {
-  font-size: 24px;
+  font-size: 38px;
   margin-bottom: 12px;
 }
 .sec5 div {

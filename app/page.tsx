@@ -101,7 +101,7 @@ export default function Home() {
               <ChartCanvas />
               <br />
               <span>예상 시세 </span>
-              <span className="price"> 350</span>
+              <span className="price"> 450</span>
               <span>만원</span>
             </div>
           </div>
