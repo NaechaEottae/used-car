@@ -43,7 +43,7 @@ export default function Navigation() {
 
           {/* 무료 견적 */}
           <li className="nav-estimate">
-            <a href="tel:01044715896" target="_parent">
+            <a href="tel:01099545896" target="_parent">
               무료 견적 받기
             </a>
           </li>
@@ -74,7 +74,7 @@ export default function Navigation() {
 
           {/* 모바일 무료 견적 */}
           <a
-            href="tel:01044715896"
+            href="tel:01099545896"
             target="_parent"
             className="mobile-estimate-button"
           >

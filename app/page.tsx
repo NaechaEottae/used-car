@@ -1,15 +1,53 @@
 import Image from "next/image";
-import car from "../public/sportage.png";
-import carCheck from "../public/free-animated-icon-document.png";
-import carIcon from "../public/free-animated-icon-car.png";
-import handshack from "../public/free-animated-icon-handshake.png";
+import car from "../public/bh330.png";
+import 수출단지 from "../public/수출단지.png";
+import 차량확인 from "../public/차량확인.png";
+import 말소증 from "../public/말소증.png";
+import 매매 from "../public/후기-매매.png";
+import 수출 from "../public/후기-수출.png";
+import 폐차 from "../public/후기-폐차.png";
 import ChartCanvas from "@/components/chart";
 import squareRoundedCheck from "../public/square-rounded-check.svg";
 
 export default function Home() {
   return (
     <>
-      <div className="sec1"></div>
+      <div className="sec1">
+        <div className="intro-box">
+          <span className="intro-label"></span>
+
+          <h2>
+            정직하고 투명한 거래,
+            <br />
+            <strong>내차어때의 원칙입니다.</strong>
+          </h2>
+
+          <p>
+            내차어때의 핵심은 <strong>정직하고 투명한 거래</strong>입니다.
+            <br />
+            <br />
+            차량을 인도받은 후 말소를 빌미로
+            <br className="pc-br" />
+            처음 안내드린 금액을 깎거나,
+            <br />
+            예상하지 못한 감액을 요구하는 일은 하지 않습니다.
+          </p>
+
+          <div className="intro-line"></div>
+
+          <div className="intro-bottom-wrap">
+            <p className="intro-bottom">
+              안전하고 정직한 차량 처분,
+              <br />
+              <strong>내차어때에서 시작하세요.</strong>
+            </p>
+
+            <a href="tel:01099545896" className="intro-button">
+              문의하기
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="sec2">
         <div className="msg-box">
           <h1>
@@ -30,25 +68,25 @@ export default function Home() {
             <br />
             가장 유리한 방법으로 선택하세요!
           </p>
-          <a href="tel:01044715896" target="_parent">
+          <a href="tel:01099545896" target="_parent">
             <button>내 차 무료 견적 받기</button>
           </a>
         </div>
         <div className="car-wrap">
           <div className="car-box">
             <div className="car-info">
-              <div className="car-num">89다1234</div>
+              <div className="car-num">23차1234</div>
               <div className="info-line">
                 <span className="title">모델명</span>
-                <span className="content">스포티지</span>
+                <span className="content">제네시스 BH330</span>
               </div>
               <div className="info-line">
                 <span className="title">연식</span>
-                <span className="content">2024년식</span>
+                <span className="content">2013년식</span>
               </div>
               <div className="info-line">
                 <span className="title">주행거리</span>
-                <span className="content">13,000km</span>
+                <span className="content">210,000km</span>
               </div>
             </div>
             <Image className="car-icon" src={car} alt="car icon" />
@@ -63,7 +101,7 @@ export default function Home() {
               <ChartCanvas />
               <br />
               <span>예상 시세 </span>
-              <span className="price"> 3600</span>
+              <span className="price"> 350</span>
               <span>만원</span>
             </div>
           </div>
@@ -71,43 +109,78 @@ export default function Home() {
       </div>
       <div className="sec3">
         <h3>내 차 처분, 한 곳에서 비교하고 결정하세요.</h3>
+
         <div className="card-wrap">
+          {/* 직접 운영 */}
           <div className="card">
-            직접 운영
-            <br />
-            <Image className="carCheck" src={carCheck} alt="car check image" />
-            <span className="small">
-              매매상사와 수출 업체를
-              <br />
-              직접 운영하여
-              <br />
-              거품 없는 견적 제공
-            </span>
+            <div className="card-image">
+              <Image
+                src={수출단지}
+                alt="중고차 수출단지 전경"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 360px"
+              />
+            </div>
+
+            <div className="card-content">
+              <h4>직접 운영</h4>
+
+              <p>
+                매매상사와 수출 업체를
+                <br />
+                직접 운영하여
+                <br />
+                거품 없는 견적 제공
+              </p>
+            </div>
           </div>
+
+          {/* 맞춤 솔루션 */}
           <div className="card">
-            맞춤 솔루션
-            <Image className="carIcon" src={carIcon} alt="car image" />
-            <span className="small">
-              차량 상태에 맞춰
-              <br />
-              가장 유리한 처분 방법 제안
-              <br />
-              매매 · 수출 · 폐차
-              <br />
-            </span>
+            <div className="card-image">
+              <Image
+                src={차량확인}
+                alt="차량의 엔진과 상태를 확인하는 모습"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 360px"
+              />
+            </div>
+
+            <div className="card-content">
+              <h4>맞춤 솔루션</h4>
+
+              <p>
+                차량 상태에 맞춰
+                <br />
+                가장 유리한 처분 방법 제안
+                <br />
+                매매 · 수출 · 폐차
+              </p>
+            </div>
           </div>
+
+          {/* 원스톱 진행 */}
           <div className="card">
-            원스톱 진행
-            <Image
-              className="handshack"
-              src={handshack}
-              alt="handshack image"
-            />
-            <span className="small">
-              복잡한 말소 및 <br />
-              서류 절차까지 깔끔하게 해결
-              <br />
-            </span>
+            <div className="card-image card-image-document">
+              <Image
+                src={말소증}
+                alt="자동차 말소등록사실증명서 예시"
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 360px"
+              />
+            </div>
+
+            <div className="card-content">
+              <h4>원스톱 진행</h4>
+
+              <p>
+                복잡한 말소 및
+                <br />
+                서류 절차까지
+                <br />
+                깔끔하게 해결
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -180,7 +253,7 @@ export default function Home() {
           <br />
           <br />
         </div>
-        <a href="tel:01044715896" target="_parent">
+        <a href="tel:01099545896" target="_parent">
           <button>무료 상담 받기</button>
         </a>
       </div>
@@ -189,31 +262,29 @@ export default function Home() {
         <p>내차어때를 이용하신 고객님들의 실제 이용 후기입니다.</p>
         <div>
           <div className="review-card">
-            <h5>중고차 구매</h5>
-            <p>
-              "너무 친절하게 잘해주셨어요 블박 하이패스 오일정비까지 다해주시고
-              가격도 너무 합리적으로 잘해주셨어요 주변에 추천도 꼭 드릴게요"
-            </p>
-            <span>sso****고객님</span>
+            <h5>중고차 구매 [네이버 플레이스 후기]</h5>
+            <Image
+              className="review-image"
+              src={매매}
+              alt="내차어때 매매 후기"
+            />
           </div>
           <div className="review-card">
-            <h5>중고차 수출</h5>
-            <p>
-              "제 첫 차를 떠나보내는 것이라 마음이 많이 복잡했는데 주실장님께서
-              직접 찾아와 시간에 맞추어 잘 안내해주시고 적절한 사유와 가격을
-              제시해주셔서 좋은 추억으로 소중했던 차를 떠나보냈습니다"
-            </p>
-            <span>won****고객님</span>
+            <h5>중고차 수출 [당근마켓 후기]</h5>
+
+            <Image
+              className="review-image"
+              src={수출}
+              alt="내차어때 수출 후기"
+            />
           </div>
           <div className="review-card">
-            <h5>폐차</h5>
-            <p>
-              "차 수리비가 많이 나오면서 어떻게 처분할지 고민이 많았는데
-              사장님께서 친절하게 잘 설명해주셔서 고민 끝에 폐차 진행하고
-              왔습니다. 평택 근교에 거주하시는 분들은 무조건 여기 방문하시면 될
-              거 같습니다!!"
-            </p>
-            <span>lk****고객님</span>
+            <h5>폐차 [네이버 플레이스 후기]</h5>
+            <Image
+              className="review-image"
+              src={폐차}
+              alt="내차어때 폐차 후기"
+            />
           </div>
         </div>
         <a href="/customer-review">

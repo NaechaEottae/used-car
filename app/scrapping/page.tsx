@@ -46,7 +46,7 @@ export default function Scrapping() {
               빠르고 안전한 말소 처리와 함께, 정당한 보상금까지 지급해드립니다.
             </p>
 
-            <a href="tel:01044715896" target="_parent">
+            <a href="tel:01099545896" target="_parent">
               <button className="scrap-button">무료 견적 받기</button>
             </a>
           </div>
@@ -277,7 +277,7 @@ export default function Scrapping() {
               전문 상담사가 차량에 맞는 방법을 친절하게 안내해드립니다.
             </p>
 
-            <a href="tel:01044715896" target="_parent">
+            <a href="tel:01099545896" target="_parent">
               <button>내 차 무료 견적 받기</button>
             </a>
           </div>

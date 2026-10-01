@@ -18,7 +18,7 @@ export default function Directions() {
           꼭! 상담 후 방문해 주세요.
           <br />
           <a
-            href="tel:01044715896"
+            href="tel:01099545896"
             target="_parent"
             style={{ textDecoration: "underline" }}
           >
