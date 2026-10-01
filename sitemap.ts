@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // const baseUrl = "https://used-car-tau.vercel.app";
-  const baseUrl = "http://www.내차어때.com";
+  const baseUrl = "https://www.내차어때.com";
 
   return [
     {
