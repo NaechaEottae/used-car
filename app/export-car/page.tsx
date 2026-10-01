@@ -281,7 +281,8 @@ export default function ExportCar() {
                   <span className="faq-plus">+</span>
 
                   <p>
-                    아닙니다. 차량 상태 확인 후 진행이 결정되면 무료 탁송을 통해
+                    아닙니다. 평택·안성·천안을 비롯해 차량이 있는 곳으로 직접
+                    방문하여 차량 상태 확인 후, 진행이 결정되면 무료 탁송을 통해
                     차량 인도를 도와드립니다.
                   </p>
                 </div>
