@@ -33,9 +33,9 @@ export default function Navigation() {
             <Link href="/export-car">중고차 수출</Link>
           </li>
 
-          <li>
+          {/* <li>
             <Link href="/scrapping">폐차</Link>
-          </li>
+          </li> */}
 
           <li>
             <Link href="/customer-review">고객리뷰</Link>
@@ -96,12 +96,12 @@ export default function Navigation() {
               중고차 수출
             </Link>
 
-            <Link
+            {/* <Link
               href="/scrapping"
               onClick={() => setResponsiveMenuState(false)}
             >
               폐차
-            </Link>
+            </Link> */}
 
             <Link
               href="/customer-review"
