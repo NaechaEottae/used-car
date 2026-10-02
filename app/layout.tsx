@@ -109,7 +109,19 @@ export default function RootLayout({
               <br />
               E-Mail : howsmycar@naver.com
               <br />
-              전화번호 : 010-9954-5896
+              네이버블로그 :{" "}
+              <a href="https://blog.naver.com/howsmycar" target="_parent">
+                https://blog.naver.com/howsmycar
+              </a>
+              <br />
+              카카오채널 :{" "}
+              <a href="http://pf.kakao.com/_JESBX" target="_parent">
+                http://pf.kakao.com/_JESBX
+              </a>
+              차량 상담 : 주형우 실장 |{" "}
+              <a href="tel:01099545896" target="_parent">
+                010-9954-5896
+              </a>
               <br />
               <br />
               <br />
