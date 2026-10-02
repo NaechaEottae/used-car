@@ -118,6 +118,7 @@ export default function RootLayout({
               <a href="http://pf.kakao.com/_JESBX" target="_parent">
                 http://pf.kakao.com/_JESBX
               </a>
+              <br />
               차량 상담 : 주형우 실장 |{" "}
               <a href="tel:01099545896" target="_parent">
                 010-9954-5896
