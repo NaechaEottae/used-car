@@ -1651,7 +1651,8 @@ header {
 .nav .nav-logo span {
   font-family: "GiantsInline", sans-serif;
 
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 34px;
   font-weight: normal;
 
   color: #38832f;
@@ -1801,7 +1802,8 @@ header {
 
     font-family: "GiantsInline", sans-serif;
 
-    font-size: 20px;
+    font-size: 28px;
+    line-height: 30px;
     font-weight: normal;
 
     color: #38832f;
