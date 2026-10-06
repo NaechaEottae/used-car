@@ -297,7 +297,7 @@ export default function CustomerReview() {
           <span></span>
           <h2>내차어때 고객 리뷰</h2>
           <p>
-            매매부터 수출, 폐차까지
+            매매부터 수출까지
             <br />
             실제 진행된 사례를 확인해보세요.
           </p>
