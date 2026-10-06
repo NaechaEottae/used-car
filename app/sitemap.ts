@@ -23,12 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
-    {
-      url: `${baseUrl}/scrapping`, // 폐차 페이지
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
+    // {
+    //   url: `${baseUrl}/scrapping`, // 폐차 페이지
+    //   lastModified: new Date(),
+    //   changeFrequency: "weekly",
+    //   priority: 0.6,
+    // },
     {
       url: `${baseUrl}/customer-review`, // 리뷰 페이지
       lastModified: new Date(),

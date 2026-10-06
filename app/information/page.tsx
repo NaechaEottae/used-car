@@ -13,7 +13,8 @@ export default function Information() {
             <span className="strong">수출 업체</span>를<br />
             <span className="strong">직접 운영</span>하고 있습니다.
             <br />
-            <br /> 중고차 매매, 수출, 폐차까지 한 곳에서 투명하게 비교하여
+            <br /> 중고차 매매, 수출까지 한 곳에서 투명하게 비교하여
+            {/* <br /> 중고차 매매, 수출, 폐차까지 한 곳에서 투명하게 비교하여 */}
             <br />
             고객님의 차량 상태와 조건에 가장 맞는{" "}
             <span className="strong">최선의 처분 방법</span>을 찾아드립니다.

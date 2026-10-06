@@ -61,7 +61,8 @@ export default function Home() {
             내 차, 현명하게 처분하세요.
             <br />
             <br />
-            중고차 매매부터 수출 · 폐차까지
+            중고차 매매부터 수출까지
+            {/* 중고차 매매부터 수출 · 폐차까지 */}
             <br />
             <br />
             내차어때에서 한 번에 비교하고,
@@ -154,7 +155,8 @@ export default function Home() {
                 <br />
                 가장 유리한 처분 방법 제안
                 <br />
-                매매 · 수출 · 폐차
+                매매 · 수출
+                {/* 매매 · 수출 · 폐차 */}
               </p>
             </div>
           </div>
@@ -279,7 +281,7 @@ export default function Home() {
             />
           </div>
           <div className="review-card">
-            <h5>폐차 [네이버 플레이스 후기]</h5>
+            <h5>[네이버 플레이스 후기]</h5>
             <Image
               className="review-image"
               src={폐차}

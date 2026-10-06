@@ -41,7 +41,8 @@ export default function Sales() {
               <strong>판매하세요.</strong>
             </h1>
             <p>
-              중고차 매매부터 수출, 폐차까지
+              중고차 매매부터 수출까지
+              {/* 중고차 매매부터 수출, 폐차까지 */}
               <br />내 차에 가장 유리한 방법을 비교해드립니다.
             </p>
             <a href="tel:01099545896" target="_parent">
@@ -193,7 +194,8 @@ export default function Sales() {
               <div className="column">
                 <h3>매매가 어려운 차량이라면?</h3>
                 <p>
-                  차량 상태에 따라 수출이나 폐차가 더 유리할 수 있습니다. 내
+                  차량 상태에 따라 수출이 더 유리할 수 있습니다. 내
+                  {/* 차량 상태에 따라 수출이나 폐차가 더 유리할 수 있습니다. 내 */}
                   차에 가장 유리한 방법으로 추천드립니다.
                 </p>
               </div>
@@ -213,7 +215,7 @@ export default function Sales() {
               <h3>중고차 수출</h3>
               <p>연식·주행거리가 많거나 사고가 있는 차량</p>
             </div>
-            <div className="how-card">
+            {/* <div className="how-card">
               <Image className="icon" src={trash} alt="trash icon" />
               <h3>폐차</h3>
               <p>
@@ -221,7 +223,7 @@ export default function Sales() {
                 <br />
                 어려운 차량
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="sec estimate-section">
@@ -231,7 +233,8 @@ export default function Sales() {
             <p>
               평택·안성·천안을 비롯해 차량이 있는 곳으로
               <br />
-              방문하여 차량 상태를 확인하고 매매·수출·폐차
+              방문하여 차량 상태를 확인하고 매매·수출
+              {/* 방문하여 차량 상태를 확인하고 매매·수출·폐차 */}
               <br />
               견적을 비교해드립니다.
             </p>
