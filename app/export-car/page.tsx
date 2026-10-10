@@ -83,7 +83,7 @@ export default function ExportCar() {
 
             <div className="condition-card">
               <span className="check">✓</span>
-              <span>국내 감가가 큰 차량</span>
+              <span>체납,압류,저당 차량</span>
             </div>
 
             <div className="condition-card">
